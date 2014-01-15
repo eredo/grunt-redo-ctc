@@ -1,0 +1,44 @@
+{
+  "name": "grunt-redo-ctc",
+  "description": "A google closure library template engine which converts HTML Dom into goog.ui.Components.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/eredo/grunt-redo-ctc",
+  "author": {
+    "name": "Eric Schneller",
+    "email": "eric@schnellers.name"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eredo/grunt-redo-ctc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eredo/grunt-redo-ctc/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/eredo/grunt-redo-ctc/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "jsdom": "~0.8.10"
+  }
+}
