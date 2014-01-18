@@ -29,7 +29,13 @@ module.exports = function(grunt) {
 
       files.forEach(function(f) {
         var code = grunt.file.read(f);
-        var data = fileRenderer(code);
+        var data = null;
+
+        try {
+          data = fileRenderer(code);
+        } catch (ex) {
+          grunt.fail.warn('Error while compiling file: ' + f + '\n' + ex.stack);
+        }
 
         if (data === null) {
           grunt.log.warn('No code generate in: ' + f);
