@@ -10,6 +10,7 @@
 
 var util = require('util'),
     path = require('path'),
+    fs = require('fs'),
     fileRenderer = require('../lib/file_renderer');
 
 module.exports = function(grunt) {
@@ -28,7 +29,7 @@ module.exports = function(grunt) {
       var files = grunt.file.expand(src);
 
       files.forEach(function(f) {
-        var code = grunt.file.read(f);
+        var code = fs.readFileSync(f);
         var data = null;
 
         try {
