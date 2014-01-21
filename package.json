@@ -39,6 +39,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "jsdom": "~0.8.10"
+    "jsdom": "0.5.7"
   }
 }
