@@ -1,7 +1,7 @@
 {
   "name": "grunt-redo-ctc",
   "description": "A google closure library template engine which converts HTML Dom into goog.ui.Components.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/eredo/grunt-redo-ctc",
   "author": {
     "name": "Eric Schneller",
